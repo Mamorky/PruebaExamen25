@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <PreferenceCategory
+        android:title="@string/preference_category_title">
+    <SwitchPreference
+        android:id="@+id/switchPreferencia"
+        android:title="@string/preferences_title_switch"
+        android:key="@string/preferences_key_switch"/>
+        <EditTextPreference
+            android:id="@+id/prefereces_edtNombreApp"
+            android:title="Nombre de la APP"
+            android:key="@string/preferences_edittext"/>
+    </PreferenceCategory>
+</PreferenceScreen>
